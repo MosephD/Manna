@@ -1,0 +1,44 @@
+@media (max-width: 970px) {
+    .product_single {
+        margin-top: -200px;
+    }
+    .text {
+        padding-left: 6px;
+        font-size: 15px;
+    }
+    h2.mention-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product_single {
+        margin-top: auto;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .benefits,
+    .mentions {
+        display: inherit;
+    }
+}
+
+@media (max-width: 540px) {
+    img.product_illustration {
+        width: 190px;
+    }
+    .menu {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 390px) {
+    img.product_illustration {
+        width: 130px;
+    }
+}
