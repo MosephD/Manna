@@ -1,0 +1,117 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 170px;
+    align-items: center;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    padding: 10px;
+}
+
+@media (max-widht: 900px) {
+    .row {
+        display: inherit;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%
+    }
+}
+
+h1.title {
+    margin-top: 85px;
+    margin-bottom: 170px;
+    color: #3D3216;
+    font-size: 39px;
+    font-family: 'TTFirsNeue-Bold';
+}
+
+.col-8 {
+    margin: 0 13px;
+}
+
+.row p {
+    color: #3D3216;
+    font-size: 21px;
+    font-family: 'TTFirsNeue-Regular';
+}
+
+.row h2 {
+    color: #3D3216;
+    font-size: 21px;
+    font-family: 'TTFirsNeue-Bold';
+}

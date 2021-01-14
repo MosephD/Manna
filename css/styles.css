@@ -9,6 +9,9 @@ body {
 }
 
 
+/* Agregar variables para los colores, fonts y otras mas que se puedan agregar */
+
+
 /*Custom Fonts**********IMPORTAR FONTS DESDE UNA API PROPIA / PARA NO ALMACENAR LOS ARCHIVOS LOCALMENTE***/
 
 @font-face {
