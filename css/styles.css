@@ -276,3 +276,100 @@ p.mention-paragraph {
 
 
 /**********************************/
+
+
+/*Checkout Page***********************************************************/
+
+.checkout-container {
+    display: flex;
+    padding: 10.2% 12.6%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product-box {
+    display: flex;
+    background-color: #EBEDF2;
+    box-shadow: rgba(61, 50, 22, 0.1) 0px 6px 12px 0px;
+    margin-right: 9px;
+    border-radius: 17px;
+}
+
+.product-box_content {
+    display: flex;
+    flex-direction: column;
+    width: 321px;
+    height: 323px;
+}
+
+.product-img {
+    text-align: center;
+    padding-top: 22px;
+}
+
+.product-img img {
+    width: 207px;
+    height: auto;
+}
+
+.product-box h2 {
+    margin-top: 23px;
+    margin-bottom: 9px;
+    padding-left: 18px;
+    color: #3D3216;
+    font-size: 21px;
+    font-family: 'TTFirsNeue-Bold';
+}
+
+.product-box p {
+    margin: 0px;
+    padding-bottom: 26px;
+    padding-left: 18px;
+    color: #3D3216;
+    font-size: 21px;
+    font-family: 'TTFirsNeue-Regular';
+    width: 251px;
+}
+
+.form-box {
+    background-color: #EBEDF2;
+    margin-left: 9px;
+    width: 464px;
+    height: 383px;
+    border-radius: 17px;
+}
+
+.form-box_content {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.form-box_content input {
+    height: 46px;
+    margin-bottom: 18px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid #3D3216;
+    color: #3D3216;
+    font-size: 18px;
+    font-family: 'TTFirsNeue-Regular';
+    outline: none;
+}
+
+.form-box_content label {
+    margin-bottom: 4px;
+    font-size: 21px;
+    font-family: 'TTFirsNeue-Regular';
+}
+
+.form-box_content button {
+    margin-top: 7px;
+    border-radius: 3px;
+    background-color: #D49D13;
+    color: #EBEDF2;
+    font-size: 19px;
+    font-family: 'TTFirsNeue-Bold';
+    border: none;
+    height: 49px;
+}
